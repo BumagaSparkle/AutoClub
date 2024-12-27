@@ -1,0 +1,29 @@
+.forum-page {
+  padding: 20px;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.event p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
